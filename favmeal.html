@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#062e3f">
+    <meta name="Description" content="A dynamic and aesthetic meal-list WebApp.">
+
+    <!-- Google Font: Quick Sand -->
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+
+    <!-- font awesome (https://fontawesome.com) for basic icons; source: https://cdnjs.com/libraries/font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+
+    <link rel="shortcut icon" type="image/png" href=""/>
+    <link rel="stylesheet" href="favmeal.css">
+    
+    <title>favouriteZone</title>
+
+</head>
+
+<body>
+
+    <div id = "header">
+        <div class="flexrow-container">
+            <div class="standard-theme theme-selector"></div>
+            <div class="light-theme theme-selector"></div>
+            <div class="darker-theme theme-selector"></div>
+        </div>
+        <h1 id="title">FavZone<div id="border"></div></h1>
+    </div>
+
+  <div id="form">
+        <form>
+            <input class="todo-input" type="text" placeholder="Add Meal">
+            <button class="todo-btn" type="submit">Mealified!</button>
+        </form>
+    </div>
+
+
+  <div id="myUnOrdList">
+        <ul class="todo-list">
+            <!-- (Basic Format)
+            <div class="todo">
+                items added to this list:
+                <li></li>
+                <button>delete</button>
+                <button>check</button>
+            </div> -->
+        </ul>
+    </div>
+
+            <!-- projects section -->
+<section id="projects" class="projects">
+    <h2 class="heading">List of Customised Meals</h2>
+    <div class="box-container">
+      <div class="box">
+        <div class="image"> 
+          <img src="https://source.unsplash.com/900x900/?dish" />
+          <div class="overlay">
+            <div class="darker-theme theme-selector"></div>
+            <h3>MEAL IDEA 1</h3>
+            <span></span>
+          </div>
+        </div>
+      </div>
+  
+      <div class="box">
+        <div class="image">
+          <img src="https://source.unsplash.com/900x900/?salad" />
+          <div class="overlay">
+            <h3>MEAL IDEA 2</h3>
+            <span>business</span>
+          </div>
+        </div>
+      </div>
+  
+      <div class="box">
+        <div class="image">
+          <img src="https://source.unsplash.com/900x900/?desserts" />
+          <div class="overlay">
+            <h3>MEAL IDEA 3</h3>
+            <span>business</span>
+          </div>
+        </div>
+      </div>
+  
+    <script src="meal.js" type="text/javascript"> </script>
+</body>
+</html>
